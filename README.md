@@ -34,34 +34,6 @@ A simple web app that fetches and shows user data from an API.
 
 No installation needed!
 
-##  How to Use
-
-| Action | How |
-|--------|-----|
-| Load users | Auto loads when page opens |
-| Search | Type in search box |
-| Filter | Select from dropdowns |
-| Sort | Choose name or email |
-| Refresh | Click "Get Users" |
-| Download | Click "Save CSV" |
-| Dark mode | Click moon/sun icon |
-| Next page | Click "Next" button |
-| Previous page | Click "Prev" button |
-
-
-
-##  API Used
-
-**URL:** https://jsonplaceholder.typicode.com/users
-
-**What it returns:** Fake user data for testing:
-- Name
-- Email
-- Phone
-- Address
-- Company
-- Website
-
 ##  Works On
 
 -  Desktop
@@ -69,39 +41,5 @@ No installation needed!
 -  Mobile
 -  All browsers
 
-##  Functions Explained
 
-- `getUsers()` - Fetches data from API
-- `showUsers()` - Displays users on page
-- `filterUsers()` - Searches and filters
-- `saveToCSV()` - Downloads as CSV
-- `toggleDark()` - Switches theme
-
-##  Error Handling
-
-- Shows error if no internet
-- Shows error if API fails
-- Retry button to try again
-
-##  What I Learned
-
-- How to use Fetch API
-- How to handle promises
-- How to create HTML with JavaScript
-- How to filter and sort arrays
-- How to make responsive design
-- How to toggle dark mode
-
-##  Future Ideas
-
-- Add more details page
-- Add user photos
-- Add more APIs
-- Add login system
-
-##  Notes
-
-- 6 users shown per page
-- Free API may be slow sometimes
-- Works offline after loading
 
