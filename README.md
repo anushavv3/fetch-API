@@ -1,45 +1,52 @@
-#  User Directory App
+# User Directory
 
-A simple web app that fetches and shows user data from an API.
+A simple responsive web application that fetches and displays user information from a public API.  
 
-##  Features
 
-- Shows list of users with name, email, phone, address
-- Search users by name, email, or city
-- Filter by company or city
-- Sort by name or email
-- Dark mode toggle
-- Download data as CSV file
-- Next/Previous buttons for pagination
-- Loading spinner while fetching
-- Error message if something fails
 
-##  Built With
+## Features
 
-- HTML
-- CSS
-- JavaScript
-- Fetch API
-- Font Awesome icons
+- Fetch user data from an API
+- Display user **Name, Username, Email, Address, and Company**
+- Responsive layout for **desktop and mobile**
+- Error handling for network failures
+- Reload button to refetch users
+- Loading message while fetching data
 
-##  How to Run
 
-1. Create a folder on your computer
-2. Create these 3 files inside:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-3. Copy the code into each file
-4. Open `index.html` in any browser
 
-No installation needed!
+## Technologies Used
 
-##  Works On
+- HTML5
+- CSS3
+- JavaScript (Fetch API)
 
--  Desktop
--  Tablet
--  Mobile
--  All browsers
+
+
+## API Used
+
+User data is fetched from the following API:
+
+https://jsonplaceholder.typicode.com/users
+
+This API is provided by **JSONPlaceholder**, a free fake REST API for testing and learning.
+
+
+
+
+## Screenshot
+
+![Screenshot](desktopview.png)
+
+
+
+
+## How to Run
+
+1. Download or clone the project folder.
+2. Open the folder in **VS Code**.
+3. Open `index.html` in a browser.
+4. Click **Fetch Users** to load user data.
 
 
 
